@@ -162,12 +162,6 @@ The following commands can be sent to the `CXS/Comando` topic to control the hom
 - **MQTT Connection Issues:** Verify the MQTT broker IP and credentials. 🔗
 - **IR Signal Not Working:** Check the IR LED wiring and test the IR signal with an IR receiver or smartphone camera. 📸
 
-## Future Improvements 🔮
-- Add support for additional IR commands.
-- Implement OTA (Over-the-Air) updates for firmware.
-- Enhance security with SSL/TLS for MQTT.
-- Add a web interface for configuration.
-
 ## Acknowledgments 🙌
 - Libraries used in the project: [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266), [PubSubClient](https://github.com/knolleary/pubsubclient).
 
