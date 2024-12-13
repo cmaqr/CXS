@@ -69,7 +69,7 @@ Connect the IR LED to the ESP8266 as follows:
       identifiers: "home_theater"
       name: "Home Theater"
       manufacturer: "Carlos"
-      model: "ESP32"
+      model: "ESP8266"
 
   - name: "VMais Som"
     availability_topic: "CXS/Conexao"
@@ -82,7 +82,7 @@ Connect the IR LED to the ESP8266 as follows:
       identifiers: "home_theater"
       name: "Home Theater"
       manufacturer: "Carlos"
-      model: "ESP32"
+      model: "ESP8266"
 
   - name: "VMenos Som"
     availability_topic: "CXS/Conexao"
@@ -95,7 +95,7 @@ Connect the IR LED to the ESP8266 as follows:
       identifiers: "home_theater"
       name: "Home Theater"
       manufacturer: "Carlos"
-      model: "ESP32"
+      model: "ESP8266"
 
   - name: "PRO Som"
     availability_topic: "CXS/Conexao"
@@ -108,7 +108,7 @@ Connect the IR LED to the ESP8266 as follows:
       identifiers: "home_theater"
       name: "Home Theater"
       manufacturer: "Carlos"
-      model: "ESP32"
+      model: "ESP8266"
 
   - name: "AUX Som"
     availability_topic: "CXS/Conexao"
@@ -121,7 +121,7 @@ Connect the IR LED to the ESP8266 as follows:
       identifiers: "home_theater"
       name: "Home Theater"
       manufacturer: "Carlos"
-      model: "ESP32"
+      model: "ESP8266"
 
   - name: "DVD Som"
     availability_topic: "CXS/Conexao"
@@ -134,7 +134,7 @@ Connect the IR LED to the ESP8266 as follows:
       identifiers: "home_theater"
       name: "Home Theater"
       manufacturer: "Carlos"
-      model: "ESP32"
+      model: "ESP8266"
   ```
 
 ### Supported Commands 💡
@@ -167,9 +167,6 @@ The following commands can be sent to the `CXS/Comando` topic to control the hom
 - Implement OTA (Over-the-Air) updates for firmware.
 - Enhance security with SSL/TLS for MQTT.
 - Add a web interface for configuration.
-
-## License 📜
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments 🙌
 - Libraries used in the project: [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266), [PubSubClient](https://github.com/knolleary/pubsubclient).
