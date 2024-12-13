@@ -1,5 +1,5 @@
 
-#include "libporta.h"
+#include "lib.h"
 
 void setup() {
   irsend.begin();  //Início do IR
